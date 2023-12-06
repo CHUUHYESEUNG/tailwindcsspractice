@@ -1,27 +1,40 @@
 {
-  "name": "start-storybook",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
-  }
+    "name": "start-storybook",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 3001",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    },
+    "dependencies": {
+        "next": "14.0.3",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@storybook/addon-essentials": "^7.6.3",
+        "@storybook/addon-interactions": "^7.6.3",
+        "@storybook/addon-links": "^7.6.3",
+        "@storybook/addon-onboarding": "^1.0.9",
+        "@storybook/blocks": "^7.6.3",
+        "@storybook/nextjs": "^7.6.3",
+        "@storybook/react": "^7.6.3",
+        "@storybook/test": "^7.6.3",
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "autoprefixer": "^10.0.1",
+        "eslint": "^8",
+        "eslint-config-next": "14.0.3",
+        "eslint-plugin-storybook": "^0.6.15",
+        "postcss": "^8",
+        "prettier-plugin-tailwindcss": "^0.5.9",
+        "storybook": "^7.6.3",
+        "tailwindcss": "^3.3.0",
+        "typescript": "^5"
+    }
 }
