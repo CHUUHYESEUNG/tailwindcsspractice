@@ -1,4 +1,4 @@
-import { CommonInput } from "../components/CommonInput";
+import { CommonInput } from "../../components/CommonInput";
 
 export default function layout() {
     return (

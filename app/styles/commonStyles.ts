@@ -1,0 +1,1 @@
+export const CommonMainBox = "flex gap-2.5 ";
