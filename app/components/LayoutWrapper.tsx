@@ -6,8 +6,8 @@ interface LayoutWrapperProps {
 
 export const LayoutWrapper = ({ children }: LayoutWrapperProps) => {
     return (
-        <div className="flex min-h-screen">
+        <main className="flex min-h-screen">
             {children}
-        </div>
+        </main>
     );
 }

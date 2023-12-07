@@ -6,7 +6,6 @@ export default function layout() {
     return (
         <> 
             <Header />
-            {/* Contents 영역 */}
             <Contents />
             <Footer />
         </>

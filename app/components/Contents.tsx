@@ -7,7 +7,7 @@ export const Contents = () => {
         <>
             <LayoutWrapper>
                 <SideLayout />
-                    <ContentsLayout />
+                <ContentsLayout />
                 <SideLayout />
             </LayoutWrapper>
         </>

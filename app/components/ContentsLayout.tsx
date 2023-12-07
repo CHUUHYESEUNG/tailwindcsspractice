@@ -3,7 +3,7 @@ import { CommonInput } from "./CommonInput";
 export const ContentsLayout = () => {
     return (
         <>
-            <div className="w-1/3 sm:w-[640px] md:w-[640px] min-h-full border-2">
+            <section className="w-1/3 sm:w-[640px] md:w-[640px] min-h-full border-2">
                 <div className="h-full pl-7 pr-7 pt-16 pb-16 gap-14 space-y-10 border-4 border-red bg-customBackground-2">
                     <h1> Main Title </h1>
                     {/* 1 */}
@@ -33,7 +33,7 @@ export const ContentsLayout = () => {
                         <CommonInput isValid={undefined} onChange={undefined} />
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };
